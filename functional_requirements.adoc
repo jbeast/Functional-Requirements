@@ -1,0 +1,22 @@
+= WWW::Genologics::Clarity
+:source-highlighter: pygments
+:pygments-style: fruity
+:icons: font
+:code_path: ./code
+
+*This document is not complete*
+
+== Changes
+****
+include::_History_[]
+****
+
+== Scenarios
+
+== Not In Scope
+
+== Overview
+
+== Details
+
+== Issues

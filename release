@@ -1,0 +1,9 @@
+#! /bin/sh
+
+set -e
+
+echo $1 > version
+git changelog --tag $1
+sed -E -e "s:(.*/.*):.\1:" -e "/^=.*/ { N; d; }" < History.md > _History_
+git commit -am "Modified History file for version $1"
+git tag -a $1 -m "Release $1"
